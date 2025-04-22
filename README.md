@@ -32,8 +32,6 @@ services/: API service to fetch data from TMDb
 
 screens/: UI components (home, details, search)
 
-widgets/: (Optional) reusable widgets
-
 🛠️ Tech Stack
 Flutter (latest stable version)
 
@@ -43,37 +41,19 @@ TMDb API – for fetching movies and TV show data
 
 REST API with http package
 
-📸 Screenshots
-
-Home	Search	Details
-(Add your own screenshots in a /screenshots folder for better preview.)
-
 🔧 Setup & Run Locally
 Clone this repo
-
-bash
-Copy
-Edit
-git clone https://github.com/your-username/netflix-clone-flutter.git
-cd netflix-clone-flutter
+git clone https://github.com/Ern-est/Netflix.git
+cd Netflix
 Install dependencies
 
-bash
-Copy
-Edit
 flutter pub get
 Add your TMDb API Key
 Create a file or directly add the API key in api_service.dart like:
 
-dart
-Copy
-Edit
 final String apiKey = 'YOUR_TMDB_API_KEY';
 Run the app
 
-bash
-Copy
-Edit
 flutter run
 📁 Folder Structure
 css
@@ -105,8 +85,9 @@ Ernest Cheruiyot
 
 ⭐️ Show Some Love
 If you like this project, give it a ⭐️ on GitHub and share it with others!
-![netflix2](https://github.com/user-attachments/assets/a78a56a6-4d88-4932-bf0f-20a9c52fc000)
 
 ![netflix3](https://github.com/user-attachments/assets/a7455832-5166-415d-ba23-ecd1f1a330b3)
+
+![netflix2](https://github.com/user-attachments/assets/a78a56a6-4d88-4932-bf0f-20a9c52fc000)
 
 ![netflix4](https://github.com/user-attachments/assets/27030e85-aea4-4153-bd2d-9e3d36cf09e3)
